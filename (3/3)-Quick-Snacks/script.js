@@ -29,7 +29,7 @@ let fourCifreNumero = prompt("Inserisci qui un numero da 4 cifre");
 
 let cifreSommate = 0;
 for (let i = 0; i < fourCifreNumero.length; i++) {
-  cifreSommate = cifreSommate + Number(fourCifreNumero);
+  cifreSommate = cifreSommate + Number(fourCifreNumero[i]);
   /* perchè Number me lo disegna come oggetto? */
 }
 console.log("La somma dei numeri che compongono il numero digitato da te" + "'" + fourCifreNumero + "'" + " è:" + cifreSommate)
