@@ -33,3 +33,14 @@ for (let i = 0; i < fourCifreNumero.length; i++) {
   /* perchè Number me lo disegna come oggetto? */
 }
 console.log("La somma dei numeri che compongono il numero digitato da te" + "'" + fourCifreNumero + "'" + " è:" + cifreSommate)
+
+// Esercizio 4
+console.log("Quarto Esercizio:")
+
+let firstTenNumbsum = 0;
+for (let i = 1; i <= 10; i ++) {
+    firstTenNumbsum += i
+}
+let mediaNumbers = firstTenNumbsum / 10
+console.log("La somma dei primi 10 numeri è: " + firstTenNumbsum)
+console.log("La media dei numeri è: " + mediaNumbers)
