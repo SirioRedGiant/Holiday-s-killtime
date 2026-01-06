@@ -21,3 +21,15 @@ console.log("Alternativa:");
 for (let p = 1; p <= 1000; p = p * 2) {
   console.log(p);
 }
+
+// esercizio 3
+console.log("Terzo Esercizio:");
+
+let fourCifreNumero = prompt("Inserisci qui un numero da 4 cifre");
+
+let cifreSommate = 0;
+for (let i = 0; i < fourCifreNumero.length; i++) {
+  cifreSommate = cifreSommate + Number(fourCifreNumero);
+  /* perchè Number me lo disegna come oggetto? */
+}
+console.log("La somma dei numeri che compongono il numero digitato da te" + "'" + fourCifreNumero + "'" + " è:" + cifreSommate)
